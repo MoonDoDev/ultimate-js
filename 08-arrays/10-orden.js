@@ -46,15 +46,15 @@
 
 // Podemos hacer lo mismo con objetos para ordenarlos (usando una "arrow function")
 let usuarios = [
-    { edad: 15, nombre: "Felipe" },
-    { edad: 25, nombre: "Nicolas" },
-    { edad: 13, nombre: "Poli" },
+	{ edad: 15, nombre: 'Felipe' },
+	{ edad: 25, nombre: 'Nicolas' },
+	{ edad: 13, nombre: 'Poli' },
 ];
 
-usuarios.sort((a, b) => {
-    if (a.edad < b.edad) return -1;
-    if (a.edad > b.edad) return 1;
-    return 0;
-});
+usuarios.sort( ( a, b ) => {
+	if ( a.edad < b.edad ) return -1;
+	if ( a.edad > b.edad ) return 1;
+	return 0;
+} );
 
-console.log(usuarios);
+console.log( usuarios );

@@ -19,26 +19,29 @@
 
 // console.log(plano);
 
-// El siguiente proceso sirve para cuando tenemos que buscar elementos en un array 
+// El siguiente proceso sirve para cuando tenemos que buscar elementos en un array
 // ... muy grande (con 5000, 10000, 100000, ... elementos).
 const usuarios = [
-    { edad: 17, nombre: "Nico" },
-    { edad: 13, nombre: "Chanchito" },
-    { edad: 25, nombre: "Felipe" },
-    { edad: 32, nombre: "Fernanda" },
+	{ edad: 17, nombre: 'Nico' },
+	{ edad: 13, nombre: 'Chanchito' },
+	{ edad: 25, nombre: 'Felipe' },
+	{ edad: 32, nombre: 'Fernanda' },
 ];
 
-// Creamos un nuevo array, partiendo de los datos del array original, y agregando una propiedad para 
-// ... facilitar las búsquedas, que para este caso, estaríamos utilizando el "nombre" del elemento como 
+// Creamos un nuevo array, partiendo de los datos del array original, y agregando una propiedad para
+// ... facilitar las búsquedas, que para este caso, estaríamos utilizando el "nombre" del elemento como
 // ... propiedad, y como valor de dicha propiedad, el objeto/elemento completo, es decir "el".
-const indexados = usuarios.reduce((acc, el) => ({
-    // Con "...acc" estamos acumulando en cada una de las iteraciones, arrando con el objeto literal
-    // ... "{}"" que definimos como segundo parámetro de la función "reduce()"
-    ...acc,
-    [el.nombre]: el,
-}), {});
+const indexados = usuarios.reduce(
+	( acc, el ) => ( {
+		// Con "...acc" estamos acumulando en cada una de las iteraciones, arrando con el objeto literal
+		// ... "{}"" que definimos como segundo parámetro de la función "reduce()"
+		...acc,
+		[el.nombre]: el,
+	} ),
+	{}
+);
 
-console.log(indexados);
+console.log( indexados );
 
 // Ya con el array modificado, podemos realizar búsquedas basadas en el nombre
-console.log(indexados["Felipe"]);
+console.log( indexados['Felipe'] );

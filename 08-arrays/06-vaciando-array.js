@@ -11,7 +11,7 @@
 // Esta segunda forma es simplemente asignando el valor 0 a la propiedad "length" del array
 let arr = [1, 2];
 arr.length = 0;
-console.log(arr);
+console.log( arr );
 
 // La tercera manera de vaciar un array, sería haciendo un "splice" desde la posición 0, hasta la longitud máxima del array "length"
 // let arr = [1, 2];

@@ -9,5 +9,5 @@ const letras = ['a', 'b', 'c', 'd'];
 // console.log(comienzo, letras);
 
 // Eliminamos uno o varios elementos a partir de una posición específica de un array
-letras.splice(1, 2);
-console.log(letras);
+letras.splice( 1, 2 );
+console.log( letras );

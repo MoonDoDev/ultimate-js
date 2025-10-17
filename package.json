@@ -1,0 +1,11 @@
+{
+	"name": "ultimate-js",
+	"version": "1.0.0",
+	"main": "01-introduccion/app.js",
+	"license": "MIT",
+	"devDependencies": {
+		"eslint": "^8.57.1",
+		"prettier": "^3.6.2",
+		"prettier-eslint": "^16.4.2"
+	}
+}
