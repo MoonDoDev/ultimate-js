@@ -1,0 +1,22 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "files.autoSave": "off",
+    "editor.formatOnPaste": true,
+    "editor.fontFamily": "'Iosevka Fixed', Sudo, 'Cascadia Code', 'Monaspace Neon', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.formatOnType": true,
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    // "window.zoomLevel": -0.5,
+    "editor.indentSize": "tabSize",
+    "javascript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+    "javascript.format.placeOpenBraceOnNewLineForFunctions": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "spaces-inside-braces.enable": true,
+    "spaces-inside-braces.enableForBraces": true,
+    "spaces-inside-braces.enableForParens": true,
+    "spaces-inside-braces.enableForBrackets": true,
+    "spaces-inside-braces.enableForAngle": true
+}
