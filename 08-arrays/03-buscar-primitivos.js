@@ -7,10 +7,10 @@ console.log( letras.indexOf( 'c' ) );
 console.log( letras.indexOf( 1, 2 ) );
 
 // Buscamos en el array de derecha a izquierda la posición del número 1
-// console.log(letras.lastIndexOf(1));
+console.log( letras.lastIndexOf( 1 ) );
 
 // Manera antigua de simplemente averiguar si un elemento se encontraba en el array (no se requiere su posición)
-// console.log(letras.indexOf(1) !== -1);
+console.log( letras.indexOf( 1 ) !== -1 );
 
 // Manera actual/moderna de averiguar si un elemento se encuentra en el array
-// console.log(letras.includes("c"));
+console.log( letras.includes( 'c' ) );
